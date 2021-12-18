@@ -18,7 +18,8 @@ public class Operators {
 		
 		
 		
-		
+		int sub = num1 -num2;
+		System.out.println("Substraction : "+ sub);
 		//square root calculation
 		
 		//cube root calculation 
