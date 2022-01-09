@@ -19,15 +19,19 @@ public class Question2usingStringEquals {
 				licenseIssued = "G2";
 			} else if (level.equals("G2")) {
 				licenseIssued = "G";
-			} else {
+			}
+			 else {
 				System.out.println("not a valid level");
 			}
 			if (!licenseIssued.equals("none")) {
 				System.out.println("Congratulation on getting license " + licenseIssued);
 			}
-		} else {
+		} else  {
 			System.out.println("Not eligible for driving license");
 		}
+		
 	}
+	
+	
 
 }

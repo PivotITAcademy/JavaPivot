@@ -1,5 +1,7 @@
 package ifElseAssignment;
 
+import dynamicInput.AddNumbers;
+
 public class Question4 {
 
 	/*
@@ -11,6 +13,8 @@ public class Question4 {
 
 		int num1 = 6;
 		int num2=3;
+		
+		AddNumbers add = new AddNumbers();
 		
 		System.out.println("num1 : "+num1);
 		
